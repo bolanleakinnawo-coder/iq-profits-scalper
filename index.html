@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <title>IQ Profit Scalper — AI-powered forex scalping system</title>
+    <meta
+      name="description"
+      content="An automated system that monitors the forex market 24/7, analyzes price action and detects scalping setups."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="hd">
+      <div class="wrap nav">
+        <!-- LOGO: put your file in this folder as logo.png (or change the src) -->
+        <a href="#top" class="logo-slot" aria-label="IQ Profit Scalper home">
+          <img
+            src="IQLOGOBG.png"
+            alt="IQ Profit Scalper logo"
+            onerror="
+              this.parentNode.classList.add('nologo');
+              this.remove();
+            "
+          />
+          <span class="wm">IQ Profit <em>Scalper</em></span>
+        </a>
+        <nav class="links" id="links" aria-label="Primary">
+          <a href="#how">How it works</a><a href="#stats">Stats</a
+          ><a href="#pricing">Pricing</a><a href="#faq">FAQ</a>
+        </nav>
+        <div class="actions">
+          <a href="#pricing" class="btn btn-p">Get access</a>
+          <button
+            class="burger"
+            id="burger"
+            aria-label="Menu"
+            aria-expanded="false"
+          >
+            <i data-lucide="menu"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+    <main id="top">
+      <section class="hero">
+        <div class="wrap hero-grid">
+          <div class="rv">
+            <p class="eyebrow">Automated forex scalping system</p>
+            <h1>
+              Let AI find the setups.<br /><span class="grad"
+                >You trade smarter.</span
+              >
+            </h1>
+            <p class="lead" style="margin-bottom: var(--s3)">
+              A simple system powered by AI that detects opportunities, analyzes
+              the market, and executes, so you can trade with a clear plan.
+            </p>
+            <div class="cta-row">
+              <a href="#pricing" class="btn btn-p"
+                >Get access now <i data-lucide="arrow-right"></i></a
+              ><a href="#how" class="btn btn-g">See how it works</a>
+            </div>
+            <p class="fine">
+              Trading forex involves significant risk. Results are never
+              guaranteed.
+            </p>
+          </div>
+          <div class="rv">
+            <div
+              class="panel sig"
+              role="img"
+              aria-label="Demo of the signal panel"
+            >
+              <div class="sig-h">
+                <strong>Signal panel</strong
+                ><span class="live">System scanning</span>
+              </div>
+              <div class="scan">
+                <span>Scanning</span
+                ><b id="scan" style="color: #fff">EUR/USD</b>
+              </div>
+              <div class="setup">
+                <h4>⚡ Setup detected · EUR/USD</h4>
+                <div class="kv">
+                  <div><small>Direction</small><b class="up">BUY</b></div>
+                  <div><small>Entry</small><b>1.0842</b></div>
+                  <div><small>Strategy</small><b>Scalp</b></div>
+                </div>
+              </div>
+              <div class="tr">
+                <button class="sell">Sell</button
+                ><button class="buy">Buy</button>
+              </div>
+            </div>
+            <p class="cap">
+              Demo interface — values shown for illustration only.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="strip" id="stats">
+        <div class="wrap">
+          <div class="rv">
+            <div class="ic"><i data-lucide="radar"></i></div>
+            <h3>24/7 monitoring</h3>
+            <p>The system scans the forex market around the clock.</p>
+          </div>
+          <div class="rv">
+            <div class="ic"><i data-lucide="brain-circuit"></i></div>
+            <h3>AI analysis</h3>
+            <p>
+              Price action, trend and key market data, analyzed by algorithm.
+            </p>
+          </div>
+          <div class="rv">
+            <div class="ic"><i data-lucide="target"></i></div>
+            <h3>Clear signals</h3>
+            <p>Buy and sell signals based on predefined strategies.</p>
+          </div>
+          <div class="rv">
+            <div class="ic"><i data-lucide="toggle-right"></i></div>
+            <h3>Your choice</h3>
+            <p>Execute signals yourself or let the system handle it.</p>
+          </div>
+        </div>
+      </div>
+
+      <section id="how">
+        <div class="wrap">
+          <div class="rv">
+            <p class="eyebrow">How it works</p>
+            <h2>
+              A simple system powered by AI.<br /><span class="grad"
+                >Detects. Analyzes. Executes.</span
+              >
+            </h2>
+            <p class="lead">
+              You trade smarter, with the system doing the heavy lifting.
+            </p>
+          </div>
+          <div class="steps">
+            <div class="step rv">
+              <div class="ic"><i data-lucide="radar"></i></div>
+              <b>01</b>
+              <h3>Market monitoring</h3>
+              <p>
+                The system scans the forex market 24/7 for high-profitability
+                opportunities.
+              </p>
+            </div>
+            <div class="step rv">
+              <div class="ic"><i data-lucide="brain-circuit"></i></div>
+              <b>02</b>
+              <h3>AI analysis</h3>
+              <p>
+                Advanced algorithms analyze price action, trend and key market
+                data.
+              </p>
+            </div>
+            <div class="step rv">
+              <div class="ic"><i data-lucide="zap"></i></div>
+              <b>03</b>
+              <h3>Setup detected</h3>
+              <p>
+                The system identifies high-probability scalping setups based on
+                predefined strategies.
+              </p>
+            </div>
+            <div class="step rv">
+              <div class="ic"><i data-lucide="mouse-pointer-click"></i></div>
+              <b>04</b>
+              <h3>Trade execution</h3>
+              <p>
+                Use the Buy and Sell buttons. You receive clear signals and
+                execute, or let the system handle the process, depending on your
+                setup.
+              </p>
+            </div>
+          </div>
+          <div class="stats4 rv">
+            <div class="stat"><small>Market coverage</small><b>24/7</b></div>
+            <div class="stat"><small>Process steps</small><b>4</b></div>
+            <div class="stat"><small>Signal types</small><b>Buy / Sell</b></div>
+            <div class="stat">
+              <small>Execution</small><b>Manual or auto</b>
+            </div>
+          </div>
+          <p class="risk rv">
+            Trading forex involves significant risk and may not be suitable for
+            everyone. Never trade more than you can afford to lose.
+          </p>
+        </div>
+      </section>
+
+      <section id="pricing" style="padding-top: 0">
+        <div class="wrap">
+          <div class="rv" style="text-align: center">
+            <p class="eyebrow">Pricing</p>
+            <h2>Choose your access plan.</h2>
+            <p class="lead" style="margin-inline: auto">
+              The longer you commit, the more you save.
+            </p>
+          </div>
+          <div class="plans">
+            <article class="plan rv">
+              <h3>1 Month Access</h3>
+              <p class="sub">Try the system</p>
+              <div class="old">$49</div>
+              <div class="price">$29</div>
+              <span class="save">Save $20</span>
+              <ul>
+                <li><i data-lucide="check"></i>24/7 market monitoring</li>
+                <li>
+                  <i data-lucide="check"></i>AI analysis &amp; setup alerts
+                </li>
+                <li><i data-lucide="check"></i>Buy / Sell signals</li>
+              </ul>
+              <!-- Replace # with your Flutterwave payment link -->
+              <a
+                class="btn btn-g"
+                href="https://flutterwave.com/pay/hdfrmkxxa09d"
+                data-plan="1-month"
+                target="_blank"
+                rel="noopener"
+                >Get 1 month</a
+              >
+            </article>
+            <article class="plan pop rv">
+              <span class="badge">Most popular</span>
+              <h3>3 Month Access</h3>
+              <p class="sub">Most chosen plan</p>
+              <div class="old">$99</div>
+              <div class="price">$69</div>
+              <span class="save">Save $30</span>
+              <ul>
+                <li><i data-lucide="check"></i>24/7 market monitoring</li>
+                <li>
+                  <i data-lucide="check"></i>AI analysis &amp; setup alerts
+                </li>
+                <li><i data-lucide="check"></i>Buy / Sell signals</li>
+              </ul>
+              <a
+                class="btn btn-p"
+                href="https://flutterwave.com/pay/pjwfvdyay5gc"
+                data-plan="3-month"
+                target="_blank"
+                rel="noopener"
+                >Get 3 months</a
+              >
+            </article>
+            <article class="plan rv">
+              <span
+                class="badge"
+                style="
+                  background: rgba(34, 197, 94, 0.2);
+                  color: var(--up);
+                  border: 1px solid rgba(34, 197, 94, 0.4);
+                "
+                >Best value</span
+              >
+              <h3>6 Month Access</h3>
+              <p class="sub">Biggest saving</p>
+              <div class="old">$199</div>
+              <div class="price">$119</div>
+              <span class="save">Save $80</span>
+              <ul>
+                <li><i data-lucide="check"></i>24/7 market monitoring</li>
+                <li>
+                  <i data-lucide="check"></i>AI analysis &amp; setup alerts
+                </li>
+                <li><i data-lucide="check"></i>Buy / Sell signals</li>
+              </ul>
+              <a
+                class="btn btn-g"
+                href="https://flutterwave.com/pay/i2otaoe5mfsu"
+                data-plan="6-month"
+                target="_blank"
+                rel="noopener"
+                >Get 6 months</a
+              >
+            </article>
+          </div>
+          <p class="cap">Payments are processed through Flutterwave.</p>
+        </div>
+      </section>
+
+      <section id="faq" style="padding-top: 0">
+        <div class="wrap">
+          <div class="rv" style="text-align: center">
+            <p class="eyebrow">FAQ</p>
+            <h2>Questions, answered.</h2>
+          </div>
+          <div class="faq rv" id="faqs"></div>
+        </div>
+      </section>
+
+      <section style="padding-top: 0">
+        <div class="wrap">
+          <div class="cta rv">
+            <h2 style="max-width: 16ch; margin-inline: auto">
+              Ready to trade smarter?
+            </h2>
+            <p class="lead">
+              Pick a plan and let the system watch the market for you, 24/7.
+            </p>
+            <div class="cta-row">
+              <a href="#pricing" class="btn btn-p"
+                >Get access now <i data-lucide="arrow-right"></i></a
+              ><a href="#how" class="btn btn-g">See how it works</a>
+            </div>
+            <p class="fine">
+              Trading involves risk. Past performance is not indicative of
+              future results.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="wrap">
+        <div class="fb" style="border: 0; margin: 0; padding: 0">
+          <a href="#top" class="logo-slot"
+            ><img
+              src="logo.png"
+              alt="IQ Profit Scalper logo"
+              onerror="
+                this.parentNode.classList.add('nologo');
+                this.remove();
+              "
+            /><span class="wm">IQ Profit <em>Scalper</em></span></a
+          >
+          <ul style="display: flex; gap: var(--s3); flex-wrap: wrap; margin: 0">
+            <li><a href="#how">How it works</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="fb">
+          <span>© 2026 IQ Profit Scalper. All rights reserved.</span
+          ><span
+            >Trading forex involves significant risk. Not financial
+            advice.</span
+          >
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/lucide@0.469.0/dist/umd/lucide.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
