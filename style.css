@@ -1144,3 +1144,58 @@ footer li a:hover {
     grid-template-columns: 1fr;
   }
 }
+
+/* Supporting platforms marquee */
+.platforms {
+  --pg: 56px;
+  padding: var(--s5) 0 0;
+}
+.pf-title {
+  font-size: clamp(1.6rem, 3.6vw, 2.4rem);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: var(--text);
+
+  margin: 0 0 var(--s3);
+}
+.marquee {
+  display: flex;
+  overflow: hidden;
+  gap: var(--pg);
+  background: #fff;
+  padding: 14px 0;
+}
+.track {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  gap: var(--pg);
+  animation: scroll 30s linear infinite;
+}
+.track li {
+  flex: none;
+}
+.track img {
+  height: 56px;
+  width: auto;
+  display: block;
+}
+.marquee:hover .track {
+  animation-play-state: paused;
+}
+@keyframes scroll {
+  to {
+    transform: translateX(calc(-100% - var(--pg)));
+  }
+}
+@media (max-width: 620px) {
+  .platforms {
+    --pg: 36px;
+  }
+  .marquee {
+    padding: 10px 0;
+  }
+  .track img {
+    height: 50px;
+  }
+}
